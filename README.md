@@ -1,5 +1,7 @@
 <h1>IntraGuard</h1>
 
+Note: Because Anonymous GitHub does not support files larger than 8 MB, we provide only a small number of representative samples in the  `/data` directory.
+
 <h2>Environment Setup</h2>
 
 1. **Transfer Environment File:**
@@ -29,8 +31,6 @@
 | Doubao         | Doubao-Seed-2.0           | https://www.doubao.com/chat             | ByteDance     |
 
 <h2>Evaluated Venues</h2>
-
-Note: Because Anonymous GitHub does not support files larger than 8 MB, we provide only a small number of representative samples in the  `/data` directory.
 
 | Abbreviation | Full Name | Review Policy | Format | Avg Pages | Avg Size (MB) |
 |---|---|---|---|---:|---:|
