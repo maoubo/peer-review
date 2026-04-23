@@ -1,8 +1,8 @@
 <h1>IntraGuard</h1>
 
-Note 1: Because Anonymous GitHub does not support files larger than 8 MB, we provide only a small number of representative samples in the  `/data` directory.
+- Note 1: Because Anonymous GitHub does not support files larger than 8 MB, we provide only a small number of representative samples in the  `/data` directory.
 
-Note 2: We have provided **Additional Materials** via HotCRP (within the 600 MB upload limit) that include 180 unmodified and protected manuscripts, representing 7 defense methods and 12 venues.
+- Note 2: We have provided **Additional Materials** via HotCRP (within the 600 MB upload limit) that include 180 unmodified and protected manuscripts, representing 7 defense methods and 12 venues.
 
 <h2>Environment Setup</h2>
 
@@ -61,4 +61,4 @@ Note 2: We have provided **Additional Materials** via HotCRP (within the 600 MB 
 
 - To simulate both single-blind and double-blind review paradigms, we manage author and affiliation metadata across our dataset. For the USENIX Security subset, identifying information are manually redacted. In contrast, manuscripts sourced from ICLR via OpenReview are natively anonymized, requiring no further sanitization.
 
-- Parameters for *Layer Cake* (such as target width and tolerance) are specified in `./configuration/venue_config.py`. Practically, setting these configurations is a straightforward task requiring zero technical expertise. The committee can manually establish them based solely on the PDF templates.
+- Parameters for *Layer Cake* (such as *target width* and *tolerance*) are specified in `./configuration/venue_config.py`. Practically, setting these configurations is a straightforward task requiring zero technical expertise. The committee can manually establish them based solely on the PDF templates.
