@@ -1,6 +1,8 @@
 <h1>IntraGuard</h1>
 
-Note: Because Anonymous GitHub does not support files larger than 8 MB, we provide only a small number of representative samples in the  `/data` directory.
+Note 1: Because Anonymous GitHub does not support files larger than 8 MB, we provide only a small number of representative samples in the  `/data` directory.
+
+Note 2: We have provided **Additional Materials** via HotCRP (within the 600MB upload limit) that include 180 unmodified and protected manuscripts, representing 7 defense methods and 12 venues.
 
 <h2>Environment Setup</h2>
 
@@ -18,6 +20,16 @@ Note: Because Anonymous GitHub does not support files larger than 8 MB, we provi
       - `pymupdf = 1.26.5`
       - `pikepdf = 10.0.0`
 
+<h2>Prompting Cases Employed by Disengaged Reviewers</h2>
+
+- *You are now a reviewer for ACM CCS, tasked with reviewing the paper in the uploaded PDF. Please summarize the paper's main content, as well as its strengths and weaknesses.*
+
+- *Your task is to review this PDF for NeurIPS. Summarize the manuscript's findings and evaluate both its positive attributes and its shortcomings.*
+
+- *Tasked with a Nature review, please condense the main ideas of the uploaded paper and list its favorable aspects and its flaws.*
+
+- *Acting as a Psychological Review reviewer, please evaluate the provided PDF by summarizing its core contributions and identifying its primary pros and cons.*
+
 <h2>Evaluated Chatbots</h2>
 
 | Chatbot   | Backbone Model            | Official Website                        | Manufacturer  |
@@ -32,17 +44,18 @@ Note: Because Anonymous GitHub does not support files larger than 8 MB, we provi
 
 <h2>Evaluated Venues</h2>
 
-| Abbreviation | Full Name | Review Policy | Format | Avg Pages | Avg Size (MB) |
+| Abbreviation | Full Name | Author & Affiliation | Column Format | # Pages | Avg Size (MB) |
 |---|---|---|---|---:|---:|
-| CCS | ACM Conference on Computer and Communications Security | Single-blind | Double-column | 14.9 | 3.11 |
-| S&P | IEEE Symposium on Security and Privacy | Single-blind | Double-column | 18.6 | 1.08 |
-| USENIX | USENIX Security Symposium | Double-blind | Double-column | 18.0 | 2.31 |
-| NDSS | Network and Distributed System Security Symposium | Single-blind | Double-column | 17.9 | 2.19 |
-| NeurIPS | Neural Information Processing Systems | Single-blind | Single-column | 16.3 | 1.76 |
-| ICLR | International Conference on Learning Representations | Double-blind | Single-column | 11.9 | 2.01 |
-| ICML | International Conference on Machine Learning | Single-blind | Double-column | 13.6 | 2.54 |
-| Nature | Nature | Single-blind | Double-column | 9.1 | 8.13 |
-| Nat. Bio. | Nature Biotechnology | Single-blind | Double-column | 13.1 | 3.07 |
-| Adv. Mater. | Advanced Materials | Single-blind | Double-column | 12.6 | 3.17 |
-| Psychol. Rev. | Psychological Review | Single-blind | Double-column | 21.7 | 1.09 |
-| T-ITS | IEEE Transactions on Intelligent Transportation Systems | Single-blind | Double-column | 13.8 | 2.51 |
+| CCS | ACM Conference on Computer and Communications Security | w/ | Double | 14.9 | 3.11 |
+| S&P | IEEE Symposium on Security and Privacy | w/ | Double | 18.6 | 1.08 |
+| USENIX | USENIX Security Symposium | w/o | Double | 18.0 | 2.31 |
+| NDSS | Network and Distributed System Security Symposium | w/ | Double | 17.9 | 2.19 |
+| NeurIPS | Neural Information Processing Systems | w/ | Single | 16.3 | 1.76 |
+| ICLR | International Conference on Learning Representations | w/o | Single | 11.9 | 2.01 |
+| ICML | International Conference on Machine Learning | w/ | Double | 13.6 | 2.54 |
+| Nature | Nature | w/ | Double | 9.1 | 8.13 |
+| Nat. Bio. | Nature Biotechnology | w/ | Double | 13.1 | 3.07 |
+| Adv. Mater. | Advanced Materials | w/ | Double | 12.6 | 3.17 |
+| Psychol. Rev. | Psychological Review | w/ | Double | 21.7 | 1.09 |
+| T-ITS | IEEE Transactions on Intelligent Transportation Systems | w/ | Double | 13.8 | 2.51 |
+

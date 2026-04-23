@@ -1,5 +1,5 @@
 """
-Venue Configuration - PDF text injection parameters
+Venue Configuration (Layer Cake)
 """
 
 from dataclasses import dataclass
@@ -21,9 +21,9 @@ class VenueConfig:
 
 # Supported venues
 SUPPORTED_VENUES = [
+    "CCS", "SP", "USENIX_Security", "NDSS", 
     "NeurIPS", "ICLR", "ICML",
     "Nature", "Nature_Biotechnology",
-    "NDSS", "USENIX_Security",
     "Advanced_Materials",
     "Psychological_Review",
     "ITS"
@@ -31,6 +31,22 @@ SUPPORTED_VENUES = [
 
 # Venue configurations (adjust parameters as needed)
 VENUE_CONFIGS = {
+    "CCS": VenueConfig(
+        target_width=220.0, target_x1=55.0, target_x2=320.0, target_font_size=7.0,
+        width_tolerance=0.05, position_tolerance=0.05, insert_count=3, use_random_count=True,
+    ),
+    "SP": VenueConfig(
+        target_width=230.0, target_x1=55.0, target_x2=320.0, target_font_size=9.96,
+        width_tolerance=0.05, position_tolerance=0.05, insert_count=3, use_random_count=True,
+    ),
+    "USENIX_Security": VenueConfig(
+        target_width=230.0, target_x1=55.0, target_x2=320.0, target_font_size=9.96,
+        width_tolerance=0.05, position_tolerance=0.05, insert_count=3, use_random_count=True,
+    ),
+    "NDSS": VenueConfig(
+        target_width=240.0, target_x1=50.0, target_x2=320.0, target_font_size=8.0,
+        width_tolerance=0.05, position_tolerance=0.05, insert_count=3, use_random_count=True,
+    ),
     "NeurIPS": VenueConfig(
         target_width=370.0, target_x1=105.0, target_x2=105.0, target_font_size=10.0,
         width_tolerance=0.05, position_tolerance=0.05, insert_count=3, use_random_count=True,
@@ -49,22 +65,6 @@ VENUE_CONFIGS = {
     ),
     "Nature_Biotechnology": VenueConfig(
         target_width=240.0, target_x1=40.0, target_x2=310.0, target_font_size=8.25,
-        width_tolerance=0.05, position_tolerance=0.05, insert_count=3, use_random_count=True,
-    ),
-    "NDSS": VenueConfig(
-        target_width=240.0, target_x1=50.0, target_x2=320.0, target_font_size=8.0,
-        width_tolerance=0.05, position_tolerance=0.05, insert_count=3, use_random_count=True,
-    ),
-    "USENIX_Security": VenueConfig(
-        target_width=230.0, target_x1=55.0, target_x2=320.0, target_font_size=9.96,
-        width_tolerance=0.05, position_tolerance=0.05, insert_count=3, use_random_count=True,
-    ),
-    "CCS": VenueConfig(
-        target_width=220.0, target_x1=55.0, target_x2=320.0, target_font_size=7.0,
-        width_tolerance=0.05, position_tolerance=0.05, insert_count=3, use_random_count=True,
-    ),
-    "SP": VenueConfig(
-        target_width=230.0, target_x1=55.0, target_x2=320.0, target_font_size=9.96,
         width_tolerance=0.05, position_tolerance=0.05, insert_count=3, use_random_count=True,
     ),
     "Advanced_Materials": VenueConfig(
