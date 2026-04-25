@@ -46,6 +46,8 @@ The comprehensive prompt pool is detailed in `./configuration/attack_prompt_pool
 | Kimi           | Kimi-K2.5                 | https://www.kimi.com/                   | Moonshot AI   |
 | Doubao         | Doubao-Seed-2.0           | https://www.doubao.com/chat             | ByteDance     |
 
+- *Given the dynamic nature of commercial chatbots, reproducing our exact findings requires rigorous version matching of the underlying backbone LLMs to minimize baseline deviations. Moreover, implicit changes to the internal rules governing their document-parsing pipelines stand as another potential source of reproduction variance.*
+
 <h2>Evaluated Venues</h2>
 
 | Abbreviation | Full Name | Author & Affiliation | Column Format | # Pages | Avg Size (MB) |
