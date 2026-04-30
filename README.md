@@ -50,7 +50,7 @@ The comprehensive prompt pool is detailed in `./configuration/attack_prompt_pool
 
 <h2>Evaluated Venues</h2>
 
-| Abbreviation | Full Name | Author & Affiliation | Column Format | # Pages | Avg Size (MB) |
+| Venue | Full Name | Author & Affiliation | Column Format | # Pages | Avg Size (MB) |
 |---|---|---|---|---:|---:|
 | CCS | ACM Conference on Computer and Communications Security | w/ | Double | 14.9 | 3.11 |
 | S&P | IEEE Symposium on Security and Privacy | w/ | Double | 18.6 | 1.08 |
